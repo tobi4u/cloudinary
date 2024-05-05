@@ -1,0 +1,103 @@
+body {
+    background-color: #262525;
+    height: 100vh;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ptag {
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: center;
+    color: #5A6AD0;
+}
+
+span {
+    color: #5A6AD0;
+}
+
+.div {
+    margin: 2rem 0;
+
+}
+
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) {
+
+    body {
+        height: 100vh;
+    }
+
+
+    .first img {
+        height: 30px;
+    }
+
+    .ptag {
+        text-align: left;
+        color: rgb(255, 255, 255);
+    }
+
+    p {
+        text-align: center;
+        color: #5A6AD0;
+    }
+
+    .second {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second img {
+        height: 150px;
+    }
+
+    .third {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third img {
+        height: 150px;
+    }
+
+    .fourth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fourth img {
+        height: 150px;
+    }
+
+    span {
+        color: #5A6AD0;
+    }
+
+    .svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
